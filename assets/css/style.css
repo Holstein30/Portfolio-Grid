@@ -17,25 +17,38 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
-
-.hero {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   text-align: center;
 }
 
+.hero {
+  grid-row: 2;
+}
+
 .hero h1 {
-  font-size: 4.5em;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 600;
 }
 
-/* .hero h3 {
-  grid-row: 4;
+.hero h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  position: relative;
+  bottom: 15%;
 }
 
-.hero a {
-  grid-row: 5;
-} */
+.hero-btn {
+  color: #fff;
+  position: relative;
+  bottom: 20%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 0;
+  padding: 15px;
+}
+
+.hero-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
