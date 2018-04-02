@@ -1,25 +1,33 @@
 /* Global Styles */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.container {
+  grid-template-columns: 1fr;
+}
+
 /* Hero */
 
 .hero-image {
   background-image: url("../images/bg1.jpg");
-  height: 50%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
   text-align: center;
 }
 
@@ -28,27 +36,35 @@ body {
 }
 
 .hero h1 {
-  font-size: 3rem;
-  font-weight: 600;
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
 }
 
 .hero h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 200;
-  position: relative;
-  bottom: 15%;
+  margin-bottom: 2rem;
 }
 
 .hero-btn {
   color: #fff;
-  position: relative;
-  bottom: 20%;
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 0;
-  padding: 15px;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .hero-btn:hover {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* About */
+
+.about {
+  text-align: center;
+  padding: 50px;
 }
