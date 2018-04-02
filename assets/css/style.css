@@ -68,3 +68,58 @@ body {
   text-align: center;
   padding: 50px;
 }
+
+.about h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 20px;
+}
+
+.about p {
+  font-weight: 250;
+  font-size: 1.5rem;
+}
+
+/* Skills */
+
+.skills {
+  background-color: rgb(25, 106, 199);
+  color: #fff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem 10rem 4rem 10rem;
+}
+
+.skills-heading {
+  text-align: center;
+  grid-column: span 4;
+  margin: 2rem;
+  font-size: 30px;
+  padding-bottom: 1.5rem;
+}
+
+.skills-heading h2 {
+  font-weight: 100;
+  padding-bottom: 1rem;
+}
+
+.skills-heading hr {
+  width: 10%;
+  color: rgba(240, 240, 240, 0.76);
+  margin: 0 auto;
+}
+
+.skill h4 {
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+.skill p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill span {
+  padding-bottom: 1.5rem;
+}
