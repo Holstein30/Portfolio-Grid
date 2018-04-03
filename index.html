@@ -21,17 +21,17 @@
     <div class="container">
 
         <!-- Hero -->
-        <div class="hero-image">
+        <header class="hero-image">
             <section class="hero">
                 <h1>Dale Holstein</h1>
                 <h3>Full Stack Web Developer</h3>
-                <button class="hero-btn">More about Dale</button>
+                <a href="#about" class="hero-btn">More about Dale</a>
             </section>
-        </div>
+        </header>
 
 
         <!-- About -->
-        <section class="about">
+        <section id="about" class="about">
             <h2>Dale is a passionate web developer, analytical problem solver, and lifelong learner.</h2>
             <p>This website was made using HTML, CSS Grid, and JavaScript.</p>
         </section>
@@ -90,6 +90,99 @@
                 </p>
             </div>
         </section>
+
+        <!-- Projects -->
+        <section class="projects-head">
+            <h1>Dale's Projects</h1>
+        </section>
+        <section class="projects">
+            <div class="project-item">
+                <a class="hover-info" target="_blank" href="https://thedetaildevil.herokuapp.com/">
+                    <img class="img-project img-fluid" src="assets/images/project1.png" alt="project item">
+                    <p class="text-vertical-center">Car detail booking web application that helps users to find detailers in their area and choose a date
+                        and time for a detailing appointment. Built using Handlebars, React, Node, Express, MongoDB, Bcrypt,
+                        Express-Sessions and Mongoose.
+                    </p>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="hover-info" target="_blank" href="https://nytreact-dale.herokuapp.com/">
+                    <img class="img-project img-fluid" src="assets/images/project2.png" alt="project item">
+                    <p class="text-vertical-center">New York Time's article search and save application using React, Mongo, Bootstrap and the New York Times
+                        API. Returns articles that match the user's specifications and allows them to save and view the article.
+                    </p>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="hover-info" target="_blank" href="https://secret-ridge-55153.herokuapp.com/">
+                    <img class="img-project img-fluid" src="assets/images/project3.png" alt="project item">
+                    <p class="text-vertical-center">Handlesbars application that scrapes the popular Webdev subreddit on Reddit.com. Utilizates Mongo, bootstrap,
+                        and various node packages to allow user's to view the current threads being discussed, add notes,
+                        and save individual threads.
+                    </p>
+                </a>
+            </div>
+            <div class="project-item">
+                <a class="hover-info" target="_blank" href="https://zarnerz.github.io/Dragon-Ball-Giphy-App/">
+                    <img class="img-project img-fluid" src="assets/images/project4.png" alt="project item">
+                    <p class="text-vertical-center">Dragon Ball themed application that utilized jQuery and AJAX to access the Giphy API and return gifs
+                        based on user selection.</p>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Contact Header -->
+        <section class="contact-header">
+            <h1>Contact Info</h1>
+        </section>
+
+        <!-- Contact/Footer -->
+        <footer class="contact">
+            <div class="contact-info">
+                <h4>
+                    <strong>Dale Holstein</strong>
+                </h4>
+                <p>Charlotte, NC</p>
+                <ul class="list-inline">
+                    <li>
+                        <i class="fa fa-file-o fa-fw"></i>
+                        <a href="./resume.pdf" download>Download Resume</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o fa-fw"></i>
+                        <a href="mailto:dholstein30@gmail.com">dholstein30@gmail.com</a>
+                    </li>
+
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/dale-holstein-99979797/">
+                            <i class="fa fa-linkedin fa-fw fa-3x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://github.com/Zarnerz">
+                            <i class="fa fa-github fa-fw fa-3x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/Dale_Holstein">
+                            <i class="fa fa-twitter fa-fw fa-3x"></i>
+                        </a>
+                    </li>
+                </ul>
+                <hr class="small">
+                <p class="text-muted">Copyright &copy; Dale Holstein 2017</p>
+
+                <!-- To Top -->
+                <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+                    <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+                </a>
+            </div>
+        </footer>
+
 
 
     </div>

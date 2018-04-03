@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  text-align: center;
 }
 
 body {
@@ -28,7 +29,6 @@ body {
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  text-align: center;
 }
 
 .hero {
@@ -53,9 +53,10 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 0;
-  padding: 1rem;
+  padding: 0.7rem 1rem;
   font-weight: 400;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .hero-btn:hover {
