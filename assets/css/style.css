@@ -19,6 +19,14 @@ body {
   grid-template-columns: 1fr;
 }
 
+:root {
+  --blue-bg: #007bff;
+}
+
+hr {
+  opacity: 0.7;
+}
+
 /* Hero */
 
 .hero-image {
@@ -84,7 +92,7 @@ body {
 /* Skills */
 
 .skills {
-  background-color: #007bff;
+  background-color: var(--blue-bg);
   color: #fff;
   text-align: center;
   display: grid;
@@ -149,7 +157,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 5rem;
-  grid-gap: 5rem;
+  grid-gap: 3rem;
 }
 
 #pro-head {
@@ -202,4 +210,60 @@ body {
 
 .img-project:hover {
   opacity: 0.8;
+}
+
+/* Contact Header */
+
+.contact-header {
+  margin: 3rem auto;
+  background-color: var(--blue-bg);
+  display: grid;
+  height: 10rem;
+  color: #fff;
+}
+
+.contact-header h1 {
+  align-self: center;
+  font-size: 2rem;
+}
+
+/* Contact */
+
+.contact-info h3,
+.contact-info p {
+  padding-bottom: 1rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list-item-1 {
+  padding-bottom: 1rem;
+}
+
+.list-item-2 {
+  display: inline-block;
+}
+
+.contact-info hr {
+  width: 10%;
+  margin: 1rem auto;
+}
+
+/* Footer */
+
+footer p {
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+#to-top {
+  font-size: 1em;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
 }
