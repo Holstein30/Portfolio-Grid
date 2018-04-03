@@ -253,6 +253,10 @@ hr {
 
 /* Footer */
 
+footer {
+  margin: 2rem;
+}
+
 footer p {
   opacity: 0.5;
   font-weight: 500;
