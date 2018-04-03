@@ -84,7 +84,7 @@ body {
 /* Skills */
 
 .skills {
-  background-color: rgb(25, 106, 199);
+  background-color: #007bff;
   color: #fff;
   text-align: center;
   display: grid;
@@ -123,4 +123,83 @@ body {
 
 .skill span {
   padding-bottom: 1.5rem;
+}
+
+/* Projects-Head */
+
+.projects-head {
+  display: grid;
+  height: 400px;
+  color: #fff;
+  background: url(../images/projects-header.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.projects-head h1 {
+  font-size: 4rem;
+  align-self: center;
+}
+
+/* Projects */
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  grid-gap: 5rem;
+}
+
+#pro-head {
+  grid-column: span 2;
+}
+
+#pro-head h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+#pro-head hr {
+  width: 10%;
+  margin: 1rem auto;
+}
+
+.project-item {
+  justify-self: right;
+  position: relative;
+}
+
+.project-item-2 {
+  justify-self: left;
+  position: relative;
+}
+
+.hover-info p {
+  position: absolute;
+  bottom: 30px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hover-info p {
+  display: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.hover-info:hover p {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+}
+
+.img-project {
+  width: 35rem;
+  height: 20rem;
+}
+
+.img-project:hover {
+  opacity: 0.8;
 }
