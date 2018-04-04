@@ -12,6 +12,16 @@ document.getElementById("menu-toggle").addEventListener("click", function(e) {
   document.getElementById("sidebar-wrapper").classList.toggle("active");
 });
 
+// Close nav when link clicked
+
+var scrollTrigger = document.querySelectorAll(".scroll-trigger");
+
+scrollTrigger.forEach(item => {
+  item.addEventListener("click", function() {
+    document.getElementById("sidebar-wrapper").classList.toggle("active");
+  });
+});
+
 // Smooth Scrolling
 
 (function() {
