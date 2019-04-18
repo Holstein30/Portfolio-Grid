@@ -244,11 +244,15 @@ hr {
   display: grid;
   height: 400px;
   color: #fff;
-  background: url(../images/projects-header.jpg) no-repeat center center scroll;
+  background-image: url(../images/projects-header.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 500px;
 }
 
 .projects-head h1 {
