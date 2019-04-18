@@ -137,11 +137,14 @@ hr {
 .hero-image {
   background-image: url("../images/bg1.jpg");
   height: 100vh;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
+
+  min-height: 500px;
 }
 
 .hero {
