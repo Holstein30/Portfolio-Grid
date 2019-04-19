@@ -389,8 +389,9 @@ footer p {
 }
 
 @media only screen and (max-width: 1200px) {
-  .projects {
-    grid-template-columns: 1fr;
+  .projects div {
+    grid-column: span 2;
+    justify-self: center;
   }
 }
 
