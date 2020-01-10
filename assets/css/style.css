@@ -411,6 +411,10 @@ footer p {
     max-width: 90%;
     height: 100%;
   }
+
+  .skills div {
+    margin: 0 auto;
+  }
   
 }
 
