@@ -211,7 +211,7 @@ hr {
 .skills-heading {
   text-align: center;
   grid-column: span 4;
-  margin: 2rem;
+  margin: 2rem auto;
   font-size: 30px;
   padding-bottom: 1.5rem;
 }
@@ -411,11 +411,12 @@ footer p {
     max-width: 90%;
     height: 100%;
   }
-
+  .skills {
+    padding: 5rem;
+  }
   .skills div {
     margin: 0 auto;
   }
-  
 }
 
 @media only screen and (max-width: 750px) {
